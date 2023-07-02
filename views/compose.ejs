@@ -1,0 +1,10 @@
+<%- include('../views/partials/header.ejs') %>
+<h1>Compose</h1>
+<form class="item" action="/" method="post">
+    <h5>Title</h5>
+    <input type="text" name="newTitle" class="form-control" autocomplete="off">
+    <h5>Post</h5>
+    <textarea name="newText" class="form-control" cols="40" rows="5"></textarea>
+    <button type="submit" class="btn btn-primary" name="publish">Publish</button>
+</form>
+<%- include('../views/partials/footer.ejs') %>

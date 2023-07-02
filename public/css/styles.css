@@ -1,0 +1,42 @@
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+    position: relative;
+    min-height: 100vh;
+	
+}
+
+.footer {
+	padding-bottom: 2.5rem;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #4b078a;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+.footer p {
+	
+	font-size: 14px;
+  color: #fff;
+}
